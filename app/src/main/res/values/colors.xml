@@ -1,0 +1,16 @@
+<resources>
+    <color name="screenBackground">#FFF7F3</color>
+    <color name="softPeach">#FCEBE2</color>
+    <color name="cardStroke">#EAD7CC</color>
+    <color name="textPrimary">#2C211B</color>
+    <color name="textSecondary">#7E6D64</color>
+    <color name="textMuted">#A8958A</color>
+    <color name="primaryBrown">#A4622B</color>
+    <color name="brownDark">#7E471C</color>
+    <color name="skyBlue">#1E90FF</color>
+    <color name="skyBlueEnd">#27B2FF</color>
+    <color name="greenAccent">#2EBC82</color>
+    <color name="greenAccentEnd">#53D8B7</color>
+    <color name="chartAccent">#FF5C66</color>
+    <color name="chartTrack">#FFD6D8</color>
+</resources>

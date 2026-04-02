@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF4EE"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <LinearLayout android:id="@+id/homeNav" style="@style/Widget.GuiWuLite.BottomItem">
+        <TextView android:id="@+id/homeIndicator" style="@style/Widget.GuiWuLite.BottomIndicator" android:layout_width="26dp" android:layout_height="4dp" />
+        <TextView style="@style/Widget.GuiWuLite.BottomIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="⌂" />
+        <TextView style="@style/Widget.GuiWuLite.BottomLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_home" />
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/statsNav" style="@style/Widget.GuiWuLite.BottomItem">
+        <TextView android:id="@+id/statsIndicator" style="@style/Widget.GuiWuLite.BottomIndicator" android:layout_width="26dp" android:layout_height="4dp" android:visibility="gone" />
+        <TextView style="@style/Widget.GuiWuLite.BottomIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="i" />
+        <TextView style="@style/Widget.GuiWuLite.BottomLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_stats" />
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/wishNav" style="@style/Widget.GuiWuLite.BottomItem">
+        <TextView android:id="@+id/wishIndicator" style="@style/Widget.GuiWuLite.BottomIndicator" android:layout_width="26dp" android:layout_height="4dp" android:visibility="gone" />
+        <TextView style="@style/Widget.GuiWuLite.BottomIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="♥" />
+        <TextView style="@style/Widget.GuiWuLite.BottomLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_wishlist" />
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/profileNav" style="@style/Widget.GuiWuLite.BottomItem">
+        <TextView android:id="@+id/profileIndicator" style="@style/Widget.GuiWuLite.BottomIndicator" android:layout_width="26dp" android:layout_height="4dp" android:visibility="gone" />
+        <TextView style="@style/Widget.GuiWuLite.BottomIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="•" />
+        <TextView style="@style/Widget.GuiWuLite.BottomLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_profile" />
+    </LinearLayout>
+</LinearLayout>

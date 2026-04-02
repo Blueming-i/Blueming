@@ -1,0 +1,102 @@
+<resources>
+    <style name="Theme.GuiWuLite" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryBrown</item>
+        <item name="colorPrimaryVariant">@color/brownDark</item>
+        <item name="colorSecondary">@color/skyBlue</item>
+        <item name="android:navigationBarColor">@color/screenBackground</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.GuiWuLite.AlertDialog</item>
+    </style>
+
+    <style name="ThemeOverlay.GuiWuLite.AlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.GuiWuLite.Dialog</item>
+    </style>
+
+    <style name="ShapeAppearance.GuiWuLite.Dialog" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">22dp</item>
+    </style>
+
+    <style name="Widget.GuiWuLite.TextInputLayout.Outlined" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@android:color/white</item>
+        <item name="boxStrokeColor">@color/primaryBrown</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+    </style>
+
+    <style name="Widget.GuiWuLite.FilterButton" parent="">
+        <item name="android:background">@drawable/bg_filter_button</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Widget.GuiWuLite.FilterButtonSmall" parent="">
+        <item name="android:background">@drawable/bg_filter_button</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <style name="Widget.GuiWuLite.RangeChip" parent="Widget.GuiWuLite.FilterButtonSmall">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Widget.GuiWuLite.ChipSelected" parent="Widget.GuiWuLite.FilterButtonSmall">
+        <item name="android:background">@drawable/bg_chip_selected</item>
+    </style>
+
+    <style name="Widget.GuiWuLite.BottomItem" parent="">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="Widget.GuiWuLite.BottomIndicator" parent="">
+        <item name="android:layout_width">26dp</item>
+        <item name="android:layout_height">4dp</item>
+        <item name="android:background">@drawable/bg_indicator</item>
+    </style>
+
+    <style name="Widget.GuiWuLite.BottomIcon" parent="">
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Widget.GuiWuLite.BottomLabel" parent="">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Widget.GuiWuLite.StatBox" parent="">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">14dp</item>
+    </style>
+
+    <style name="Widget.GuiWuLite.StatLabel" parent="">
+        <item name="android:textColor">@color/textSecondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Widget.GuiWuLite.StatValue" parent="">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
